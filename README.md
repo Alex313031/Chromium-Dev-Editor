@@ -18,4 +18,4 @@ I have included the original .crx, the original .crx extracted, the new logo, my
 
 For regular usage download the .crx (hopefullu mine), go to chrome://extensions, enable developer mode in the upper right hand corner, then simply drag and drop the .crx, and it will install like any other chrome web store app.
 
-<img src="https://raw.githubusercontent.com/alex313031/cog-chrome-app/master/hero.png">
+<img src="https://github.com/Alex313031/Chromium-Dev-Editor/blob/main/new_logo.png">
