@@ -1,6 +1,6 @@
 <img src="https://github.com/Alex313031/Chromium-Dev-Editor/blob/main/new_icon.png">
 
-# Chromium-Dev-Editor
+# Chromium Dev Editor
 Revived version of Chrome Dev Editor - Chromium-ified! (original chrome app-id >> pnoffddplpippgcfjdhbmhkofpnaalpg)
 
 # Background
@@ -21,15 +21,15 @@ I have included the original .crx, the original .crx extracted, the new logo/old
 For regular usage download the .crx (hopefullu mine >> cros-editor.crx), go to chrome://extensions, enable developer mode in the upper right hand corner, then simply drag and drop the .crx, and it will install like any other chrome web store app.
 
 # File Names
-cros-editor.crx -- My .crx
-pnoffddplpippgcfjdhbmhkofpnaalpg-0.23.3550-Crx4Chrome.com.crx -- Original .crx
-cros-editor -- My .crx unpacked.
-original_crx -- Ogiginal .crx unpacked.
-new_icon.png -- New logo (integrated into both crx and unpacked extension).
-original_icon.png -- Original 256p logo.
-README.md -- This Readme markup doc.
+cros-editor.crx -- My .crx  
+pnoffddplpippgcfjdhbmhkofpnaalpg-0.23.3550-Crx4Chrome.com.crx -- Original .crx  
+cros-editor -- My .crx unpacked.  
+original_crx -- Original .crx unpacked.  
+new_icon.png -- New logo (integrated into both crx and unpacked extension).  
+original_icon.png -- Original 256p logo.  
+README.md -- This Readme markup doc.  
 
 # Version History
-0.23.03550 - Original Chrome App version
-0.23.03551 - My Chromium version
-0.23.03552 - Logo changed and version bump.
+0.23.03550 - Original Chrome App version  
+0.23.03551 - My Chromium version  
+0.23.03552 - Logo changed and version bump.  
