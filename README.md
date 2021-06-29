@@ -6,7 +6,7 @@ Revived version of Chrome Dev Editor - Chromium-ified! (original chrome app-id >
 # Background
 There are many sucky editors on the chrome web store.
 The best are Text https://chrome.google.com/webstore/detail/text/mmfbcljfglbokpmkimbfghdkjmjhdgbg?hl=en , and Quantuum https://chrome.google.com/webstore/detail/quantum/hmnlklahndgbhdoclhdnoafhafbhmnkm?hl=en (GitHub is here for installation on non Chrome OS platforms. >> https://github.com/DenisDeveloper/Quantum )
-However, there was one above all the rest, developed by the Chromium Devs, for the Chromium Devs. The link is still up on ChromiumOS's site >> https://www.chromium.org/chromium-os/developing-apps-on-your-chromium-os-device in the first listing. However it is a dead link. The github is archived, and is only at version 0.17, while the last version on the web store was 0.23.3550. Don't ask me why that is. I was able to source the .crx file from CRX4Chrome >> https://www.crx4chrome.com/apps/pnoffddplpippgcfjdhbmhkofpnaalpg/. So I downloaded it, extracted it, and tried it. It had some errors, and some bugs, but it worked on *ChromiumOS ver. 90.1*, unlike the 0.17 version. I then got to work modifying the source code to update/fix/and "Chromium-ify it"
+However, there was one above all the rest, developed by the Chromium Devs, for the Chromium Devs. The link is still up on ChromiumOS's site >> https://www.chromium.org/chromium-os/developing-apps-on-your-chromium-os-device in the first listing. However it is a dead link. The github is archived, and is only at version 0.17, while the last version on the web store was 0.23.3550. Don't ask me why that is. I was able to source the .crx file from CRX4Chrome >> https://www.crx4chrome.com/apps/pnoffddplpippgcfjdhbmhkofpnaalpg/. Strangely, after downloading the crx, I tested downloading it from google cdn, and suprisingly it worked. What this means is it isn't actually gone from Google's servers (as is the case 99% of the time when an extension is removed), just that the page is missing. Probably because it was no longer maintained but known to be trustworthy and not taken down for abuses/violations like most are. This is an update to the readme and the file will be reuploaded with the official crx rather than the crx4chrome one. See #File Names for change. So I downloaded it, extracted it, and tried it. It had some errors, and some bugs, but it worked on *ChromiumOS ver. 90.1*, unlike the 0.17 version. I then got to work modifying the source code to update/fix/and "Chromium-ify it"
 
 # My Changes
 Manifest.json was modified to reflect permissions changes since 2019. App version and descriptions were added or modified. Then I went to work changing everything I could that said Chrome/ChromeOS into "Chromium/ChromiumOS", except for non-ui things needed for compatability and functionality related to integration and centering around developing Chrome Apps ("Chromium Apps"). While searching the app-id on google, I also stumbled across a custom logo someone made for the app "EVO Numix Dock Theme Rocket Nexus Dock, icon chrome-pnoffddplpippgcfjdhbmhkofpnaalpg-Default_192x192 png" - I might use that to change the default "chrome colored logo". UPDATE: Changed.
@@ -21,9 +21,10 @@ I have included the original .crx, the original .crx extracted, the new logo/old
 For regular usage download the .crx (hopefullu mine >> cros-editor.crx), go to chrome://extensions, enable developer mode in the upper right hand corner, then simply drag and drop the .crx, and it will install like any other chrome web store app.
 
 # File Names
-cros-editor.crx -- My .crx  
-pnoffddplpippgcfjdhbmhkofpnaalpg-0.23.3550-Crx4Chrome.com.crx -- Original .crx  
-cros-editor -- My .crx unpacked.  
+cros-editor.crx -- My .crx (THIS is most likely what you want)  
+pnoffddplpippgcfjdhbmhkofpnaalpg-0.23.3550-Crx4Chrome.com.crx -- Original .crx (OLD)  
+>>Update: Original .crx is now the official google CDN version, not crx4chrome (although they are generally trustworthy)
+cros-editor -- My .crx unpacked.    
 original_crx -- Original .crx unpacked.  
 new_icon.png -- New logo (integrated into both crx and unpacked extension).  
 original_icon.png -- Original 256p logo.  
