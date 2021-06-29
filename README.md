@@ -22,11 +22,12 @@ For regular usage download the .crx (hopefullu mine >> cros-editor.crx), go to c
 
 # File Names
 cros-editor.crx -- My .crx (THIS is most likely what you want)  
-pnoffddplpippgcfjdhbmhkofpnaalpg-0.23.3550-Crx4Chrome.com.crx -- Original .crx (OLD)  
->>Update: Original .crx is now the official Google CDN version, not crx4chrome (although they are generally trustworthy)
->>Both the crx4chrome and official .crx are being moved into the original_crx directory
+pnoffddplpippgcfjdhbmhkofpnaalpg-0.23.3550-Crx4Chrome.com.crx -- chrome4crx .crx (OLD)  
+pnoffddplpippgcfjdhbmhkofpnaalpg-0.23.3550.0.crx -- Original official Google .crx (OLD)
+--Update: Original .crx is now the official Google CDN version, not crx4chrome (although they are generally trustworthy)  
+--Both the crx4chrome .crxand official .crx are being moved into the original_crx directory  
 cros-editor -- My .crx unpacked.    
-original_crx -- Original .crx unpacked.  
+original_crx -- Directory for original .crx files (see above0)  
 new_icon.png -- New logo (integrated into both crx and unpacked extension).  
 original_icon.png -- Original 256p logo.  
 README.md -- This Readme markup doc.  
@@ -35,4 +36,4 @@ README.md -- This Readme markup doc.
 0.23.03550 - Original Chrome App version  
 0.23.03551 - My Chromium version  
 0.23.03552 - Logo changed and version bump.  
-0.23.03553 - Add to about dialog, change logo therein, and adjust about dialog spacing.
+0.23.03553 - Add to about dialog, change logo therein, and adjust about dialog spacing. (First full release @ releases)
